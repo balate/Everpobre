@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14F4DD641D68C87800F0DDAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F4DD631D68C87800F0DDAE /* main.m */; };
+		14F4DD671D68C87800F0DDAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F4DD661D68C87800F0DDAE /* AppDelegate.m */; };
+		14F4DD6A1D68C87800F0DDAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F4DD691D68C87800F0DDAE /* ViewController.m */; };
+		14F4DD6D1D68C87800F0DDAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F4DD6B1D68C87800F0DDAE /* Main.storyboard */; };
+		14F4DD6F1D68C87800F0DDAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F4DD6E1D68C87800F0DDAE /* Assets.xcassets */; };
+		14F4DD721D68C87800F0DDAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F4DD701D68C87800F0DDAE /* LaunchScreen.storyboard */; };
+		14F4DD7C1D68C9DD00F0DDAE /* JCOSimpleCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F4DD7B1D68C9DD00F0DDAE /* JCOSimpleCoreDataStack.m */; };
+		14F4DD821D6A260400F0DDAE /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14F4DD801D6A260400F0DDAE /* Model.xcdatamodeld */; };
+		14F4DDA11D6F624E00F0DDAE /* _JCONamedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F4DD961D6F624E00F0DDAE /* _JCONamedEntity.m */; };
+		14F4DDA21D6F624E00F0DDAE /* _JCONote.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F4DD981D6F624E00F0DDAE /* _JCONote.m */; };
+		14F4DDA31D6F624E00F0DDAE /* _JCONoteBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F4DD9A1D6F624E00F0DDAE /* _JCONoteBook.m */; };
+		14F4DDA41D6F624E00F0DDAE /* JCONamedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F4DD9C1D6F624E00F0DDAE /* JCONamedEntity.m */; };
+		14F4DDA51D6F624E00F0DDAE /* JCONote.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F4DD9E1D6F624E00F0DDAE /* JCONote.m */; };
+		14F4DDA61D6F624E00F0DDAE /* JCONoteBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F4DDA01D6F624E00F0DDAE /* JCONoteBook.m */; };
+		14F4DDAB1D6F74F600F0DDAE /* _JCOPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F4DDA81D6F74F600F0DDAE /* _JCOPhoto.m */; };
+		14F4DDAC1D6F74F600F0DDAE /* JCOPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F4DDAA1D6F74F600F0DDAE /* JCOPhoto.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14F4DD5F1D68C87800F0DDAE /* Everpobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Everpobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F4DD631D68C87800F0DDAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14F4DD651D68C87800F0DDAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14F4DD661D68C87800F0DDAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14F4DD681D68C87800F0DDAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14F4DD691D68C87800F0DDAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14F4DD6C1D68C87800F0DDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14F4DD6E1D68C87800F0DDAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14F4DD711D68C87800F0DDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14F4DD731D68C87800F0DDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F4DD7A1D68C9DD00F0DDAE /* JCOSimpleCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCOSimpleCoreDataStack.h; path = ../../JCOSimpleCoreDataStack.h; sourceTree = "<group>"; };
+		14F4DD7B1D68C9DD00F0DDAE /* JCOSimpleCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCOSimpleCoreDataStack.m; path = ../../JCOSimpleCoreDataStack.m; sourceTree = "<group>"; };
+		14F4DD811D6A260400F0DDAE /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		14F4DD951D6F624E00F0DDAE /* _JCONamedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JCONamedEntity.h; sourceTree = "<group>"; };
+		14F4DD961D6F624E00F0DDAE /* _JCONamedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JCONamedEntity.m; sourceTree = "<group>"; };
+		14F4DD971D6F624E00F0DDAE /* _JCONote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JCONote.h; sourceTree = "<group>"; };
+		14F4DD981D6F624E00F0DDAE /* _JCONote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JCONote.m; sourceTree = "<group>"; };
+		14F4DD991D6F624E00F0DDAE /* _JCONoteBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JCONoteBook.h; sourceTree = "<group>"; };
+		14F4DD9A1D6F624E00F0DDAE /* _JCONoteBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JCONoteBook.m; sourceTree = "<group>"; };
+		14F4DD9B1D6F624E00F0DDAE /* JCONamedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCONamedEntity.h; sourceTree = "<group>"; };
+		14F4DD9C1D6F624E00F0DDAE /* JCONamedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCONamedEntity.m; sourceTree = "<group>"; };
+		14F4DD9D1D6F624E00F0DDAE /* JCONote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCONote.h; sourceTree = "<group>"; };
+		14F4DD9E1D6F624E00F0DDAE /* JCONote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCONote.m; sourceTree = "<group>"; };
+		14F4DD9F1D6F624E00F0DDAE /* JCONoteBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCONoteBook.h; sourceTree = "<group>"; };
+		14F4DDA01D6F624E00F0DDAE /* JCONoteBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCONoteBook.m; sourceTree = "<group>"; };
+		14F4DDA71D6F74F600F0DDAE /* _JCOPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JCOPhoto.h; sourceTree = "<group>"; };
+		14F4DDA81D6F74F600F0DDAE /* _JCOPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JCOPhoto.m; sourceTree = "<group>"; };
+		14F4DDA91D6F74F600F0DDAE /* JCOPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCOPhoto.h; sourceTree = "<group>"; };
+		14F4DDAA1D6F74F600F0DDAE /* JCOPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCOPhoto.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F4DD5C1D68C87800F0DDAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14F4DD561D68C87700F0DDAE = {
+			isa = PBXGroup;
+			children = (
+				14F4DD611D68C87800F0DDAE /* Everpobre */,
+				14F4DD601D68C87800F0DDAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14F4DD601D68C87800F0DDAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F4DD5F1D68C87800F0DDAE /* Everpobre.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14F4DD611D68C87800F0DDAE /* Everpobre */ = {
+			isa = PBXGroup;
+			children = (
+				14F4DD791D68C89100F0DDAE /* Modelos */,
+				14F4DD651D68C87800F0DDAE /* AppDelegate.h */,
+				14F4DD661D68C87800F0DDAE /* AppDelegate.m */,
+				14F4DD681D68C87800F0DDAE /* ViewController.h */,
+				14F4DD691D68C87800F0DDAE /* ViewController.m */,
+				14F4DD6B1D68C87800F0DDAE /* Main.storyboard */,
+				14F4DD6E1D68C87800F0DDAE /* Assets.xcassets */,
+				14F4DD701D68C87800F0DDAE /* LaunchScreen.storyboard */,
+				14F4DD731D68C87800F0DDAE /* Info.plist */,
+				14F4DD621D68C87800F0DDAE /* Supporting Files */,
+			);
+			path = Everpobre;
+			sourceTree = "<group>";
+		};
+		14F4DD621D68C87800F0DDAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14F4DD631D68C87800F0DDAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14F4DD791D68C89100F0DDAE /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				14F4DDA71D6F74F600F0DDAE /* _JCOPhoto.h */,
+				14F4DDA81D6F74F600F0DDAE /* _JCOPhoto.m */,
+				14F4DDA91D6F74F600F0DDAE /* JCOPhoto.h */,
+				14F4DDAA1D6F74F600F0DDAE /* JCOPhoto.m */,
+				14F4DD951D6F624E00F0DDAE /* _JCONamedEntity.h */,
+				14F4DD961D6F624E00F0DDAE /* _JCONamedEntity.m */,
+				14F4DD971D6F624E00F0DDAE /* _JCONote.h */,
+				14F4DD981D6F624E00F0DDAE /* _JCONote.m */,
+				14F4DD991D6F624E00F0DDAE /* _JCONoteBook.h */,
+				14F4DD9A1D6F624E00F0DDAE /* _JCONoteBook.m */,
+				14F4DD9B1D6F624E00F0DDAE /* JCONamedEntity.h */,
+				14F4DD9C1D6F624E00F0DDAE /* JCONamedEntity.m */,
+				14F4DD9D1D6F624E00F0DDAE /* JCONote.h */,
+				14F4DD9E1D6F624E00F0DDAE /* JCONote.m */,
+				14F4DD9F1D6F624E00F0DDAE /* JCONoteBook.h */,
+				14F4DDA01D6F624E00F0DDAE /* JCONoteBook.m */,
+				14F4DD7A1D68C9DD00F0DDAE /* JCOSimpleCoreDataStack.h */,
+				14F4DD7B1D68C9DD00F0DDAE /* JCOSimpleCoreDataStack.m */,
+				14F4DD801D6A260400F0DDAE /* Model.xcdatamodeld */,
+			);
+			name = Modelos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14F4DD5E1D68C87800F0DDAE /* Everpobre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F4DD761D68C87800F0DDAE /* Build configuration list for PBXNativeTarget "Everpobre" */;
+			buildPhases = (
+				14F4DD5B1D68C87800F0DDAE /* Sources */,
+				14F4DD5C1D68C87800F0DDAE /* Frameworks */,
+				14F4DD5D1D68C87800F0DDAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Everpobre;
+			productName = Everpobre;
+			productReference = 14F4DD5F1D68C87800F0DDAE /* Everpobre.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14F4DD571D68C87700F0DDAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ocon;
+				TargetAttributes = {
+					14F4DD5E1D68C87800F0DDAE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Q6H47X7GGR;
+					};
+				};
+			};
+			buildConfigurationList = 14F4DD5A1D68C87700F0DDAE /* Build configuration list for PBXProject "Everpobre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14F4DD561D68C87700F0DDAE;
+			productRefGroup = 14F4DD601D68C87800F0DDAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14F4DD5E1D68C87800F0DDAE /* Everpobre */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14F4DD5D1D68C87800F0DDAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F4DD721D68C87800F0DDAE /* LaunchScreen.storyboard in Resources */,
+				14F4DD6F1D68C87800F0DDAE /* Assets.xcassets in Resources */,
+				14F4DD6D1D68C87800F0DDAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F4DD5B1D68C87800F0DDAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F4DD6A1D68C87800F0DDAE /* ViewController.m in Sources */,
+				14F4DDA11D6F624E00F0DDAE /* _JCONamedEntity.m in Sources */,
+				14F4DD671D68C87800F0DDAE /* AppDelegate.m in Sources */,
+				14F4DDA61D6F624E00F0DDAE /* JCONoteBook.m in Sources */,
+				14F4DD821D6A260400F0DDAE /* Model.xcdatamodeld in Sources */,
+				14F4DD7C1D68C9DD00F0DDAE /* JCOSimpleCoreDataStack.m in Sources */,
+				14F4DDAC1D6F74F600F0DDAE /* JCOPhoto.m in Sources */,
+				14F4DDA31D6F624E00F0DDAE /* _JCONoteBook.m in Sources */,
+				14F4DDAB1D6F74F600F0DDAE /* _JCOPhoto.m in Sources */,
+				14F4DDA51D6F624E00F0DDAE /* JCONote.m in Sources */,
+				14F4DDA41D6F624E00F0DDAE /* JCONamedEntity.m in Sources */,
+				14F4DD641D68C87800F0DDAE /* main.m in Sources */,
+				14F4DDA21D6F624E00F0DDAE /* _JCONote.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14F4DD6B1D68C87800F0DDAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F4DD6C1D68C87800F0DDAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14F4DD701D68C87800F0DDAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F4DD711D68C87800F0DDAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14F4DD741D68C87800F0DDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14F4DD751D68C87800F0DDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14F4DD771D68C87800F0DDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Everpobre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ocon.Everpobre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14F4DD781D68C87800F0DDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Everpobre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ocon.Everpobre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F4DD5A1D68C87700F0DDAE /* Build configuration list for PBXProject "Everpobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F4DD741D68C87800F0DDAE /* Debug */,
+				14F4DD751D68C87800F0DDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F4DD761D68C87800F0DDAE /* Build configuration list for PBXNativeTarget "Everpobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F4DD771D68C87800F0DDAE /* Debug */,
+				14F4DD781D68C87800F0DDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		14F4DD801D6A260400F0DDAE /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14F4DD811D6A260400F0DDAE /* Model.xcdatamodel */,
+			);
+			currentVersion = 14F4DD811D6A260400F0DDAE /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 14F4DD571D68C87700F0DDAE /* Project object */;
+}
