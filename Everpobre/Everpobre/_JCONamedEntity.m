@@ -41,15 +41,6 @@
 @end
 
 @implementation JCONamedEntityAttributes 
-+ (NSString *)attribute {
-	return @"attribute";
-}
-+ (NSString *)attribute1 {
-	return @"attribute1";
-}
-+ (NSString *)attribute2 {
-	return @"attribute2";
-}
 + (NSString *)creationDate {
 	return @"creationDate";
 }

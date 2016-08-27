@@ -8,18 +8,18 @@
     <entity name="Note" representedClassName="JCONote" parentEntity="NamedEntity" syncable="YES">
         <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="notebook" maxCount="1" deletionRule="Nullify" destinationEntity="NoteBook" inverseName="notes" inverseEntity="NoteBook" syncable="YES"/>
-        <relationship name="photo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Photo" inverseName="notes" inverseEntity="Photo" syncable="YES"/>
+        <relationship name="photo" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Photo" inverseName="notes" inverseEntity="Photo" syncable="YES"/>
     </entity>
     <entity name="NoteBook" representedClassName="JCONoteBook" parentEntity="NamedEntity" syncable="YES">
         <relationship name="notes" toMany="YES" deletionRule="Cascade" destinationEntity="Note" inverseName="notebook" inverseEntity="Note" syncable="YES"/>
     </entity>
     <entity name="Photo" representedClassName="JCOPhoto" syncable="YES">
         <attribute name="imageData" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
-        <relationship name="notes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Note" inverseName="photo" inverseEntity="Note" syncable="YES"/>
+        <relationship name="notes" maxCount="1" deletionRule="Nullify" destinationEntity="Note" inverseName="photo" inverseEntity="Note" syncable="YES"/>
     </entity>
     <elements>
         <element name="NamedEntity" positionX="-243" positionY="9" width="128" height="88"/>
-        <element name="Note" positionX="-414" positionY="189" width="128" height="90"/>
+        <element name="Note" positionX="-414" positionY="189" width="128" height="88"/>
         <element name="NoteBook" positionX="-135" positionY="212" width="128" height="58"/>
         <element name="Photo" positionX="-263" positionY="404" width="128" height="73"/>
     </elements>

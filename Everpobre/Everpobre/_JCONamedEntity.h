@@ -42,9 +42,6 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface JCONamedEntityAttributes: NSObject 
-+ (NSString *)attribute;
-+ (NSString *)attribute1;
-+ (NSString *)attribute2;
 + (NSString *)creationDate;
 + (NSString *)modificationDate;
 + (NSString *)name;

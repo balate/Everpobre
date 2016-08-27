@@ -8,6 +8,15 @@
 
 @implementation JCOPhoto
 
-// Custom logic goes here.
 
++(instancetype) photoWithImage:(UIImage *)image
+                       context:(NSManagedObjectContext *)context{
+
+    JCOPhoto *p = [NSEntityDescription insertNewObjectForEntityForName:[JCOPhoto entityName] inManagedObjectContext:context];
+    
+    p.imageData = UIImagePNGRepresentation(image);
+    
+    return p;
+
+}
 @end
