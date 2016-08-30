@@ -31,7 +31,7 @@
 
     JCOPhoto *p = [NSEntityDescription insertNewObjectForEntityForName:[JCOPhoto entityName] inManagedObjectContext:context];
     
-    p.imageData = UIImagePNGRepresentation(image);
+    p.imageData = UIImageJPEGRepresentation(image, 0.9);
     
     return p;
 }
