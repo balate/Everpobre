@@ -64,6 +64,36 @@
 }
 
 
+#pragma mark - LifeCycle
+//ciclo de vida de NSManagedObject
+-(void) awakeFromInsert{
+
+    [super awakeFromInsert];
+    [self setupKVO];
+
+}
+
+//creaccion
+-(void)awakeFromFetch{
+
+    [super awakeFromFetch];
+    [self setupKVO];
+}
+
+
+//destrucción
+-(void) willTurnIntoFault{
+
+    [super willTurnIntoFault];
+    [self tearDownKVO];
+}
+
+
+
+
+
+
+
 
 
 
