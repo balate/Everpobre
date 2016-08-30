@@ -25,6 +25,8 @@
     
     [self trastearConDatos];
     
+    [self autoSave];
+    
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
@@ -92,7 +94,17 @@
 }
 
 
+-(void)autoSave{
 
+    NSLog(@"Autoguardando");
+    
+    [self save];
+    
+    [self performSelector:@selector(autoSave)
+               withObject:nil
+               afterDelay:2];
+    
+}
 
 
 
